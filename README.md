@@ -1,7 +1,7 @@
 
 # docker_openvino_ubuntu16.04LTS_xfce4_x11vnc
 
-#<AnyText> indicate variables/names that you choose
+# "<>" indicate variables/names that you choose
 
 STEP1 : Use "Dockerfile" to create docker container -
 sudo docker build . -t <open_vino_with_vnc_xfce4>
