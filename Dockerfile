@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-ARG DOWNLOAD_LINK=http://registrationcenter-download.intel.com/akdlm/irc_nas/XXXX/l_openvino_toolkit_p_2019.3.376.tgz
+ARG DOWNLOAD_LINK=http://registrationcenter-download.intel.com/akdlm/irc_nas/<XXXX>/l_openvino_toolkit_p_2019.3.376.tgz
 ARG INSTALL_DIR=/opt/intel/openvino
 ARG TEMP_DIR=/tmp/openvino_installer
 RUN apt-get update && apt-get install -y --no-install-recommends \
